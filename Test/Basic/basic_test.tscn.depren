@@ -1,0 +1,75 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://Test/Basic/TestPoint.gd" type="Script" id=1]
+[ext_resource path="res://Data/spatial_icons/spatial_icon_manager.gd" type="Script" id=2]
+[ext_resource path="res://Test/Basic/ball1.gd" type="Script" id=3]
+[ext_resource path="res://Test/Basic/TestIcon.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Test/Basic/Ball2.gd" type="Script" id=5]
+
+
+[sub_resource type="SphereMesh" id=1]
+
+[node name="Spatial" type="Spatial"]
+
+[node name="Camera" type="Camera" parent="."]
+current = true
+
+[node name="TestPoints" type="Spatial" parent="."]
+
+[node name="TPFront" type="Position3D" parent="TestPoints"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.74023 )
+script = ExtResource( 1 )
+
+[node name="TPBack" type="Position3D" parent="TestPoints"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 4.259 )
+script = ExtResource( 1 )
+
+[node name="TP3" type="Position3D" parent="TestPoints"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.285, 0, -2.74 )
+script = ExtResource( 1 )
+
+[node name="TP3m" type="Position3D" parent="TestPoints"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.285, 0, 2.74 )
+script = ExtResource( 1 )
+
+[node name="TP3mm" type="Position3D" parent="TestPoints"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.285, 0, 2.74 )
+script = ExtResource( 1 )
+
+[node name="TPDiagBehind1" type="Position3D" parent="TestPoints"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 1 )
+script = ExtResource( 1 )
+
+[node name="TPDiagBehind2" type="Position3D" parent="TestPoints"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 4 )
+script = ExtResource( 1 )
+
+[node name="TPAbove" type="Position3D" parent="TestPoints"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0 )
+script = ExtResource( 1 )
+
+[node name="Control" type="Control" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 2 )
+
+[node name="Ball1" type="MeshInstance" parent="."]
+transform = Transform( 0.920839, -0.389943, 0, 0.389943, 0.920839, 0, 0, 0, 1, 0, 0, -8.05753 )
+mesh = SubResource( 1 )
+material/0 = null
+script = ExtResource( 3 )
+amplitude = 20.0
+period = 3.0
+
+[node name="Icon" parent="Ball1" instance=ExtResource( 4 )]
+radius = 45.0
+
+[node name="Ball2" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.24205, -5.33108 )
+mesh = SubResource( 1 )
+material/0 = null
+script = ExtResource( 5 )
+period = 5.0
+
+[node name="Icon" parent="Ball2" instance=ExtResource( 4 )]
+radius = 45.0

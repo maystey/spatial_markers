@@ -1,0 +1,33 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Demo/WalkAround/position_icon.gd" type="Script" id=1]
+[ext_resource path="res://Demo/WalkAround/fatcow/fatcow-free-font/v1.0/PC-TT/FatCow.ttf" type="DynamicFontData" id=2]
+[ext_resource path="res://Test/Basic/pointer.png" type="Texture" id=3]
+
+[sub_resource type="DynamicFont" id=1]
+size = 46
+outline_size = 2
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 2 )
+
+[node name="Icon" type="Node2D"]
+script = ExtResource( 1 )
+radius = 45.0
+
+[node name="Name" type="RichTextLabel" parent="."]
+margin_left = -92.0
+margin_top = -83.0
+margin_right = 93.0
+margin_bottom = -29.0
+size_flags_horizontal = 5
+size_flags_vertical = 5
+custom_fonts/normal_font = SubResource( 1 )
+
+[node name="Arrow" type="Sprite" parent="."]
+scale = Vector2( 2, 2 )
+texture = ExtResource( 3 )
+
+[node name="Arrow2" type="Sprite" parent="."]
+rotation = -3.14159
+scale = Vector2( 2, 2 )
+texture = ExtResource( 3 )

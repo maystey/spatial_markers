@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Demo/WalkAround/player_controller.gd" type="Script" id=1]
+
+[sub_resource type="CapsuleShape" id=1]
+
+[node name="PlayerController" type="KinematicBody"]
+script = ExtResource( 1 )
+camera_sensitivity = 0.016
+camera_min_pitch = -90.0
+camera_max_pitch = 90.0
+
+[node name="CollisionShape" type="CollisionShape" parent="."]
+transform = Transform( 1, 0, 0, 0, -4.37114e-008, 1, 0, -1, -4.37114e-008, 0, 0, 0 )
+shape = SubResource( 1 )
+
+[node name="Camera" type="Camera" parent="."]
+transform = Transform( -1, 0, -8.74228e-008, 0, 1, 0, 8.74228e-008, 0, -1, 0, 0, 0 )
