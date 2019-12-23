@@ -1,9 +1,9 @@
 [gd_scene load_steps=22 format=2]
 
-[ext_resource path="res://Demo/WalkAround/walk_around.gd" type="Script" id=1]
-[ext_resource path="res://Demo/WalkAround/player_controller.tscn" type="PackedScene" id=2]
-[ext_resource path="res://Demo/WalkAround/position_icon.tscn" type="PackedScene" id=3]
-[ext_resource path="res://Data/spatial_icons/spatial_icon_manager.gd" type="Script" id=4]
+[ext_resource path="res://Demo/walk_around/walk_around.gd" type="Script" id=1]
+[ext_resource path="res://Demo/walk_around/player_controller.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Demo/walk_around/position_icon.tscn" type="PackedScene" id=3]
+[ext_resource path="res://spatial_markers/spatial_marker_manager.gd" type="Script" id=4]
 
 [sub_resource type="BoxShape" id=1]
 extents = Vector3( 30, 0.1, 30 )
@@ -197,4 +197,3 @@ nameplate = "Sphere"
 margin_right = 40.0
 margin_bottom = 40.0
 script = ExtResource( 4 )
-behind_camera_unwrap = 0

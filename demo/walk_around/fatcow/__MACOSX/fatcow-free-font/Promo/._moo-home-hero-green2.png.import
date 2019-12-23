@@ -2,16 +2,11 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/HERDWORD2.png-c83c7608520aac7766386bba850c3c74.stex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
-source_file="res://Demo/WalkAround/fatcow/fatcow-free-font/Promo/HERDWORD2.png"
-dest_files=[ "res://.import/HERDWORD2.png-c83c7608520aac7766386bba850c3c74.stex" ]
-
+source_file="res://demo/walk_around/fatcow/__MACOSX/fatcow-free-font/Promo/._moo-home-hero-green2.png"
 [params]
 
 compress/mode=0

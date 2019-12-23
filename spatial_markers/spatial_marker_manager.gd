@@ -1,5 +1,5 @@
 extends Control
-class_name SpatialIconManager
+class_name SpatialMarkerManager
 
 var camera:Camera;
 

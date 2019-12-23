@@ -6,7 +6,7 @@ valid=false
 
 [deps]
 
-source_file="res://Demo/WalkAround/fatcow/__MACOSX/fatcow-free-font/Promo/._moo-home-hero-green2.png"
+source_file="res://demo/walk_around/fatcow/__MACOSX/fatcow-free-font/Promo/._HERDWORD2.png"
 [params]
 
 compress/mode=0

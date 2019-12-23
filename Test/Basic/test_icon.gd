@@ -1,4 +1,4 @@
-extends SpatialIconBase
+extends SpatialMarkerBase
 
 onready var arrow_pivot = self.get_node("ArrowPivot");
 onready var arrow = self.get_node("ArrowPivot/Arrow");

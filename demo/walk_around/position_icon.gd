@@ -1,4 +1,4 @@
-extends SpatialIconBase;
+extends SpatialMarkerBase;
 
 export(NodePath) var manager:NodePath;
 export(String) var nameplate:String;

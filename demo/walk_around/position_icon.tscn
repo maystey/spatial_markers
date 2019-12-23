@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=2]
 
-[ext_resource path="res://Demo/WalkAround/position_icon.gd" type="Script" id=1]
-[ext_resource path="res://Demo/WalkAround/fatcow/fatcow-free-font/v1.0/PC-TT/FatCow.ttf" type="DynamicFontData" id=2]
+[ext_resource path="res://Demo/walk_around/position_icon.gd" type="Script" id=1]
+[ext_resource path="res://Demo/walk_around/fatcow/fatcow-free-font/v1.0/PC-TT/FatCow.ttf" type="DynamicFontData" id=2]
 [ext_resource path="res://Test/Basic/pointer.png" type="Texture" id=3]
 
 [sub_resource type="DynamicFont" id=1]

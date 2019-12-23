@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/moo-home-hero-green2.png-3bec255eba50f4f22de685a11f976cd4.stex"
+path="res://.import/HERDWORD2.png-6378825edd595030f678b7f175885d8c.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Demo/WalkAround/fatcow/fatcow-free-font/Promo/moo-home-hero-green2.png"
-dest_files=[ "res://.import/moo-home-hero-green2.png-3bec255eba50f4f22de685a11f976cd4.stex" ]
+source_file="res://demo/walk_around/fatcow/fatcow-free-font/Promo/HERDWORD2.png"
+dest_files=[ "res://.import/HERDWORD2.png-6378825edd595030f678b7f175885d8c.stex" ]
 
 [params]
 

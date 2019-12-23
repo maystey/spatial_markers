@@ -1,5 +1,5 @@
 extends Node2D
-class_name SpatialIconBase
+class_name SpatialMarkerBase
 
 ##Variables
 #var parent:Spatial;
