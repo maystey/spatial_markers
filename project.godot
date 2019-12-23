@@ -27,6 +27,7 @@ _global_script_class_icons={
 [application]
 
 config/name="SpatialMarkers"
+run/main_scene="res://demo/walk_around/walk_around.tscn"
 config/icon="res://icon.png"
 
 [display]
