@@ -10,7 +10,7 @@ func _ready() -> void:
 	pass
 
 ##Functions
-func set_position_data(is_offscreen:bool, uv:Vector2, displacement:Vector3) -> void: 
+func set_position_data(is_offscreen:bool, is_behind_camera:bool, uv:Vector2, displacement:Vector3) -> void: 
 	pass
 
 ##Setters and getters
