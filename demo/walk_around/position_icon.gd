@@ -10,7 +10,7 @@ onready var name_plate:RichTextLabel = self.get_node("Name");
 
 ##Overrides
 func _ready() -> void:
-	get_node(manager).add_spatial_icon(self);
+	get_node(manager).add_spatial_marker(self);
 
 func set_position_data(is_offscreen:bool, is_behind_camera:bool, uv:Vector2, displacement:Vector3)->void:
 	if is_offscreen or is_behind_camera:
