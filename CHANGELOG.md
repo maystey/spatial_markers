@@ -10,4 +10,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - This CHANGELOG file.
-- README file.
+- README file. Currently contains a brief overview of the project and a screenshot from the walk_around demo.
+
+### Removed
+
+- Export directory (using `.gitignore`). This was an oversight and should never have been included.
