@@ -18,10 +18,16 @@ _global_script_classes=[ {
 "class": "SpatialMarkerManager",
 "language": "GDScript",
 "path": "res://spatial_markers/spatial_marker_manager.gd"
+}, {
+"base": "SpatialMarkerManager",
+"class": "SpatialMarkerManagerDown",
+"language": "GDScript",
+"path": "res://spatial_markers/spatial_marker_manager_down.gd"
 } ]
 _global_script_class_icons={
 "SpatialMarkerBase": "",
-"SpatialMarkerManager": ""
+"SpatialMarkerManager": "",
+"SpatialMarkerManagerDown": ""
 }
 
 [application]

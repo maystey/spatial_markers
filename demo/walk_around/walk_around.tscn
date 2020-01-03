@@ -3,7 +3,7 @@
 [ext_resource path="res://Demo/walk_around/walk_around.gd" type="Script" id=1]
 [ext_resource path="res://Demo/walk_around/player_controller.tscn" type="PackedScene" id=2]
 [ext_resource path="res://Demo/walk_around/position_icon.tscn" type="PackedScene" id=3]
-[ext_resource path="res://spatial_markers/spatial_marker_manager.gd" type="Script" id=4]
+[ext_resource path="res://spatial_markers/spatial_marker_manager_down.gd" type="Script" id=4]
 
 [sub_resource type="BoxShape" id=1]
 extents = Vector3( 30, 0.1, 30 )
@@ -176,6 +176,7 @@ manager = NodePath("../../../../../../SpatialIconManager")
 nameplate = "Prism"
 
 [node name="Sphere" type="StaticBody" parent="Podiums"]
+editor/display_folded = true
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -18, 0, -17 )
 
 [node name="CollisionShape" type="CollisionShape" parent="Podiums/Sphere"]
@@ -187,6 +188,7 @@ mesh = SubResource( 12 )
 material/0 = SubResource( 13 )
 
 [node name="MeshInstance" type="MeshInstance" parent="Podiums/Sphere/CollisionShape/MeshInstance"]
+editor/display_folded = true
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.51787, 0 )
 mesh = SubResource( 17 )
 material/0 = SubResource( 15 )
@@ -199,3 +201,5 @@ nameplate = "Sphere"
 margin_right = 40.0
 margin_bottom = 40.0
 script = ExtResource( 4 )
+side_margin = 0.5
+interpolation_margin = 2.0

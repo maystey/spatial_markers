@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://test/manager_inheretance/extended_spatial_marker_manager.gd" type="Script" id=1]
+[ext_resource path="res://demo/walk_around/position_icon.tscn" type="PackedScene" id=2]
+
+[node name="DoNotRunThisScene" type="Spatial"]
+
+[node name="Control" type="Control" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+
+[node name="Spatial" type="Spatial" parent="Control"]
+
+[node name="Icon" parent="Control/Spatial" instance=ExtResource( 2 )]
+manager = NodePath("../../../../DoNotRunThisScene/Control")
+
+[node name="Camera" type="Camera" parent="."]
+current = true
