@@ -1,4 +1,4 @@
-extends SpatialMarkerManager
+extends SpatialMarkerManagerBase
 class_name SpatialMarkerManagerDown
 
 ## Variables

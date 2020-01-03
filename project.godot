@@ -15,18 +15,18 @@ _global_script_classes=[ {
 "path": "res://spatial_markers/spatial_marker_base.gd"
 }, {
 "base": "Control",
-"class": "SpatialMarkerManager",
+"class": "SpatialMarkerManagerBase",
 "language": "GDScript",
-"path": "res://spatial_markers/spatial_marker_manager.gd"
+"path": "res://spatial_markers/spatial_marker_manager_base.gd"
 }, {
-"base": "SpatialMarkerManager",
+"base": "SpatialMarkerManagerBase",
 "class": "SpatialMarkerManagerDown",
 "language": "GDScript",
 "path": "res://spatial_markers/spatial_marker_manager_down.gd"
 } ]
 _global_script_class_icons={
 "SpatialMarkerBase": "",
-"SpatialMarkerManager": "",
+"SpatialMarkerManagerBase": "",
 "SpatialMarkerManagerDown": ""
 }
 
