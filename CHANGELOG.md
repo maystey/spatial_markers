@@ -11,7 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - This CHANGELOG file.
 - README file. Currently contains a brief overview of the project and a screenshot from the walk_around demo.
-- SpatialMarkerManagerDown node.
+- SpatialMarkerManagerDown and SpatialMarkerManagerSides nodes.
 
 ### Removed
 
